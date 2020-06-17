@@ -238,8 +238,8 @@ body{
 	width: 150px;
 	height: 40px;
 	background: white;
-	float: right;
-	margin-right: 358px;
+	float: left;
+	margin-left: 280px;
 	border: 2px solid #222222;
 	display: flex;
 }
