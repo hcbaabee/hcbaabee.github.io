@@ -23,9 +23,29 @@
 	justify-content: center;
 }
 @media (max-width:375px){
-	.rowone{
-		display: flex;
-	align-items: center;
-	justify-content: center;
+	.first h1{
+		font-size: 32px !important;
+	}
+	.content-text h2{
+/*		font-size: 25px !important;*/
+	}
+	.content-text p{
+		font-size: 18px !important;
+	}
+	.content-text{
+		margin-top: 15px !important;
+		margin-bottom: 15px !important;
+	}
+	.testimonials img{
+		width: 80% !important;
+	}
+	
+element.style {
+}
+h5 {
+    margin-top: -12%;
+}
+	.banner {
+		height: 500px !important;
 	}
 }
