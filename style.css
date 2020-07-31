@@ -6,11 +6,13 @@
 	align-items: center;
 	justify-content: center;
 }
+/*
 .form-control{
+
 	width: 600px;
 	height: 40px;
 }
-
+*/
 .banner-2{
 	background: url("img/bg-masthead.jpg");
 	background-repeat: no-repeat;
