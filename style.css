@@ -68,7 +68,7 @@ padding-top: 400px;
 	transition: transform .2s; /* Animation */
 }
 .testimonial-item:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 label{
 	float:left
@@ -110,10 +110,10 @@ label{
     padding-bottom: 15px;
 }
 	.h1, h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 	.fab{
-	margin-right: 10px;
+	margin-right: 3px;
 	color: #262525;
 }
 	
@@ -122,4 +122,6 @@ element.style {
     width: 70% !important;
 }
 }
-
+.ay{
+	background:#E4E4E4;
+}

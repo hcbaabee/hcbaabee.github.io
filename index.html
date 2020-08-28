@@ -16,10 +16,13 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 	<link type="text/javascript" href="java.js">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
 </head>
 
 <body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 	
 <div id="particles-js">
           <div class="text">
@@ -69,7 +72,7 @@
     </div>
 </section>
 	
-<section class="features-icons bg-blue text-center">
+<section class="features-icons bg-blue text-center ay mb-5">
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-3">
@@ -114,41 +117,41 @@
 	
 	
 <section class="testimonials text-center bg-white">
-    <div class="por container py-5">
+    <div class="por container py-1">
       <h2 class="mb-1">PORTFOLIO</h2>
 		      <a href="#">All</a>
               <a href="#">Web design</a>
               <a href="#">Applications</a>
               <a href="#">Development</a>
-      <div class="row pt-2">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto  mb-lg-0">
-            <img class="img-fluid mb-3 p-3 mb-5" src="img/6b9b88607e205b3216c9ad3ac4ec8b28.jpg" alt="">
+      <div class="row pt-2 pt-4">
+        <div class="col-lg-4" data-aos="zoom-in">
+          <div class="testimonial-item mx-auto  mb-lg-0 ">
+            <img class="img-fluid mb-3 mb-5" src="img/6b9b88607e205b3216c9ad3ac4ec8b28.jpg" alt="">
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-<img class="img-fluid mb-3 	p-3 mb-5" src="img/9b95dae306eed9d84f3785f9252f4adf.jpg" alt="">
+        <div class="col-lg-4" data-aos="zoom-in">
+          <div class="testimonial-item mx-auto mb-lg-0">
+<img class="img-fluid mb-3 mb-5" src="img/9b95dae306eed9d84f3785f9252f4adf.jpg" alt="">
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-<img class="img-fluid mb-3 	p-3 mb-5" src="img/9536cd6de2957846ee913897c5c3ddeb.jpg" alt="">
+        <div class="col-lg-4" data-aos="zoom-in">
+          <div class="testimonial-item mx-auto mb-lg-0">
+<img class="img-fluid mb-3 mb-5" src="img/9536cd6de2957846ee913897c5c3ddeb.jpg" alt="">
           </div>
         </div>
-		         <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-<img class="img-fluid mb-3 	p-3 mb-5" src="img/aadc169e8e46dda3cfe6cb6de11f8c07.jpg" alt="">
+		         <div class="col-lg-4" data-aos="zoom-in">
+          <div class="testimonial-item mx-auto mb-lg-0">
+<img class="img-fluid mb-3 mb-5" src="img/aadc169e8e46dda3cfe6cb6de11f8c07.jpg" alt="">
           </div>
         </div>
-		          <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-<img class="img-fluid mb-3 	p-3 mb-5" src="img/ec7ad099b095d06cc933fc2770ad91f0.jpg" alt="">
+		          <div class="col-lg-4" data-aos="zoom-in">
+          <div class="testimonial-item mx-auto mb-lg-0">
+<img class="img-fluid mb-3 mb-5" src="img/ec7ad099b095d06cc933fc2770ad91f0.jpg" alt="">
           </div>
         </div>
-		          <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-<img class="img-fluid mb-3 	p-3 mb-5" src="img/f5eb2c9c1a9543f0fb858b55bf249a6b.jpg" alt="">
+		          <div class="col-lg-4" data-aos="zoom-in">
+          <div class="testimonial-item mx-auto mb-lg-0">
+<img class="img-fluid mb-3 mb-5" src="img/f5eb2c9c1a9543f0fb858b55bf249a6b.jpg" alt="">
           </div>
         </div>
       </div>
@@ -199,14 +202,14 @@
 
                 <div class="row justify-content-xl-center">
 
-                    <div class="col-md-4">
-                        <div class="md-form mb-0">
+                 	<div class="col-md-4">
+                        <div class="md-form mb-0" data-aos="fade-right">
                             <input type="text" id="name" name="name" class="form-control border-top-0 border-left-0 border-right-0" placeholder="Your name">
                         </div>
                     </div>
-
+						
                     <div class="col-md-4">
-                        <div class="md-form mb-0">
+                        <div class="md-form mb-0" data-aos="fade-left">
                             <input type="text" id="email" name="email" class="form-control border-top-0 border-left-0 border-right-0" placeholder="Your email">
                         </div>
                     </div>
@@ -216,15 +219,15 @@
 
                     <div class="col-md-8">
 
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea border-top-0 border-left-0 border-right-0"  placeholder="Your email"></textarea>
+                        <div class="md-form" data-aos="fade-up">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea border-top-0 border-left-0 border-right-0"  placeholder="Message"></textarea>
                         </div>
 
                     </div>
                 </div>
             </form>
 
-            <div class="text-center pt-4">
+            <div class="text-center pt-4" data-aos="zoom-in">
                 <a class="btn" onclick="document.getElementById('contact-form').submit();"><p>SEND A MESSAGE</p></a>
             </div>
             <div class="status"></div>
