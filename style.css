@@ -121,7 +121,12 @@ label{
 element.style {
     width: 70% !important;
 }
+.row {
+    display: flex;
+    text-align: center !important;
+    justify-content: center !important;
 }
 .ay{
 	background:#E4E4E4;
+}
 }
