@@ -129,4 +129,8 @@ element.style {
 .ay{
 	background:#E4E4E4;
 }
+.self video{
+	height: 216px;
+	width: 384px;
+	}
 }
