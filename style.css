@@ -131,13 +131,13 @@ element.style {
 	background:#E4E4E4;
 }
 .self video{
-	height: auto;
-	width: 100%;
+	height: auto !important;
+	width: 100% !important;
 	}
 }
 @media (max-width:375px){
 .self video{
-	height: auto;
-	width: 100%;
+	height: auto !important;
+	width: 100% !important;
 	}
 }
