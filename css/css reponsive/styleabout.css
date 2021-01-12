@@ -7,7 +7,7 @@
 }
 @media (max-width:414px){
 	header{
-		  height: 120vh;
+		  height: 120vh!important;
 	}
 	.page-section h2{
 		font-size: 50px !important;
