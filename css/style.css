@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&display=swap');
 h2{
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-weight:bold;
+	font-weight:bold !important;
 }
 p{
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -12,9 +12,24 @@ a{
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight:medium;
 }
+h4{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: white;
+	font-weight: 300 !important;
+}
+li{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
 #mainNav {
   background-color: transparent;
   transition: background-color 0.2s ease;
+}
+.fixed-top {
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 .dropdown-menu{
 	background-color: transparent;
